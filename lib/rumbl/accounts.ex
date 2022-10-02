@@ -5,7 +5,6 @@ defmodule Rumbl.Accounts do
   alias Rumbl.Repo
   alias Rumbl.Accounts.User
 
-
   def get_user(id) do
     Repo.get(User, id)
   end
